@@ -1,0 +1,17 @@
+# Godot 4+ editor data
+.godot/
+
+# Translation binaries (generated from .po)
+*.translation
+
+# Export presets (user-specific)
+export_presets.cfg
+
+# macOS
+.DS_Store
+
+# VSCode / IDE
+.vscode/
+
+# Claude Code
+.claude/

@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_menu"]
+[ext_resource type="PackedScene" uid="uid://bjgcuauwpy41d" path="res://objects/ui/menu/menu_item_title_bar.tscn" id="2_title"]
+[ext_resource type="PackedScene" uid="uid://ctg8603hwn317" path="res://objects/ui/menu/menu_item_selector.tscn" id="3_selector"]
+[ext_resource type="PackedScene" uid="uid://hc8gvdg03bpo" path="res://objects/ui/menu/menu_item_button.tscn" id="4_button"]
+
+[node name="Language" type="VBoxContainer"]
+texture_filter = 1
+offset_right = 384.0
+offset_bottom = 216.0
+theme_override_constants/separation = 8
+script = ExtResource("1_menu")
+
+[node name="Title" parent="." instance=ExtResource("2_title")]
+layout_mode = 2
+title = "Language"
+
+[node name="MenuItem_Selector_Language" parent="." instance=ExtResource("3_selector")]
+layout_mode = 2
+id = "language"
+title = "Language"
+values = Array[String](["English", "Simplified Chinese"])
+
+[node name="Back" parent="." instance=ExtResource("4_button")]
+layout_mode = 2
+id = "back"
+title = "Back"

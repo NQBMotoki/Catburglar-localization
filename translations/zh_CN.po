@@ -1,0 +1,617 @@
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. 上下文标注: [category / section] key: key_name
+#.   category  = 文本大类 (menu_ui / dialogues / hints / ...)
+#.   section   = 子分类 (title_menu / level1 / gameplay / ...)
+#.   key       = 唯一标识符
+#:  源码位置: 文件路径:行号
+#, 标记为待翻译
+
+#. [menu_ui / audio_menu] key: sfx
+#: objects/ui/menus/audio.tscn
+msgid "SFX"
+msgstr "音效"
+
+#. [menu_ui / audio_menu] key: ui
+#: objects/ui/menus/audio.tscn
+msgid "UI"
+msgstr "UI"
+
+#. [menu_ui / audio_menu] key: bgm
+#: objects/ui/menus/audio.tscn
+msgid "BGM"
+msgstr "音乐"
+
+#. [menu_ui / audio_menu] key: ambience
+#: objects/ui/menus/audio.tscn
+msgid "Ambience"
+msgstr "场景"
+
+#. [menu_ui / audio_menu] key: voice
+#: objects/ui/menus/audio.tscn
+msgid "Voice"
+msgstr "语音"
+
+#. [menu_ui / controls_menu] key: gamepad_nintendo
+msgid "Nintendo"
+msgstr "任天堂"
+
+#. [menu_ui / controls_menu] key: down
+#: objects/ui/menus/controls.tscn
+msgid "Down"
+msgstr "下"
+
+#. [menu_ui / controls_menu] key: pause
+#: objects/ui/menus/controls.tscn
+msgid "Pause"
+msgstr "暂停"
+
+#. [menu_ui / controls_menu] key: gamepad_playstation
+msgid "PlayStation"
+msgstr "PlayStation"
+
+#. [menu_ui / controls_menu] key: gamepad_type
+#: objects/ui/menus/controls.tscn
+msgid "Gamepad Type"
+msgstr "手柄类型"
+
+#. [menu_ui / controls_menu] key: left
+#: objects/ui/menus/controls.tscn
+msgid "Left"
+msgstr "左"
+
+#. [menu_ui / controls_menu] key: right
+#: objects/ui/menus/controls.tscn
+msgid "Right"
+msgstr "右"
+
+#. [menu_ui / controls_menu] key: gamepad_xbox
+msgid "Xbox"
+msgstr "Xbox"
+
+#. [menu_ui / controls_menu] key: interact
+#: objects/ui/prompt.tscn
+#: objects/ui/menus/controls.tscn
+msgid "Interact"
+msgstr "交互"
+
+#. [menu_ui / controls_menu] key: up
+#: objects/ui/menus/controls.tscn
+msgid "Up"
+msgstr "上"
+
+#. [menu_ui / graphics_menu] key: show_mouse_cursor
+#: objects/ui/menus/graphics.tscn
+msgid "Show Mouse Cursor"
+msgstr "显示鼠标光标"
+
+#. [menu_ui / graphics_menu] key: fullscreen
+#: objects/ui/menus/graphics.tscn
+msgid "Fullscreen"
+msgstr "全屏"
+
+#. [menu_ui / pause_menu] key: title
+#: objects/ui/menus/pause.tscn
+msgid "Paused"
+msgstr "已暂停"
+
+#. [menu_ui / pause_menu] key: resume
+#: objects/ui/menus/pause.tscn
+msgid "Resume"
+msgstr "继续游戏"
+
+#. [menu_ui / pause_menu] key: back_to_title
+#: objects/ui/menus/pause.tscn
+msgid "Back to Title"
+msgstr "返回主菜单"
+
+#. [menu_ui / pause_menu] key: restart_level
+#: objects/ui/menus/pause.tscn
+msgid "Restart Level"
+msgstr "重玩本关"
+
+#. [menu_ui / prompts] key: skip
+msgid "Skip"
+msgstr "跳过"
+
+#. [menu_ui / prompts] key: continue
+msgid "Continue"
+msgstr "继续"
+
+#. [menu_ui / prompts] key: select
+#: objects/ui/pause_screen.tscn
+msgid "Select"
+msgstr "确认"
+
+#. [menu_ui / settings_menu] key: audio
+#. [menu_ui / audio_menu] key: title
+#: objects/ui/menus/settings.tscn
+#: objects/ui/menus/audio.tscn
+msgid "Audio"
+msgstr "音量"
+
+#. [menu_ui / settings_menu] key: controls
+#. [menu_ui / controls_menu] key: title
+#: objects/ui/menus/controls.tscn
+#: objects/ui/menus/settings.tscn
+msgid "Controls"
+msgstr "快捷键"
+
+#. [menu_ui / settings_menu] key: graphics
+#. [menu_ui / graphics_menu] key: title
+#: objects/ui/menus/graphics.tscn
+#: objects/ui/menus/settings.tscn
+msgid "Graphics"
+msgstr "画面"
+
+#. [menu_ui / settings_menu] key: back
+#. [menu_ui / controls_menu] key: back_action
+#. [menu_ui / prompts] key: back
+#: objects/ui/pause_screen.tscn
+#: objects/ui/menus/graphics.tscn
+#: objects/ui/menus/controls.tscn
+#: objects/ui/menus/settings.tscn
+#: objects/ui/menus/audio.tscn
+msgid "Back"
+msgstr "返回"
+
+#. [menu_ui / title_menu] key: play
+#: objects/ui/menus/title.tscn
+msgid "Play"
+msgstr "开始"
+
+#. [menu_ui / title_menu] key: settings
+#. [menu_ui / settings_menu] key: title
+#: objects/ui/menus/settings.tscn
+#: objects/ui/menus/pause.tscn
+#: objects/ui/menus/title.tscn
+msgid "Settings"
+msgstr "设置"
+
+#. [menu_ui / title_menu] key: quit
+#: objects/ui/menus/title.tscn
+msgid "Quit"
+msgstr "退出"
+
+#. [menu_ui / title_menu] key: credits
+#: objects/ui/menus/title.tscn
+msgid "Credits"
+msgstr "鸣谢"
+
+#. [hud / visibility] key: in_light
+msgid "IN LIGHT"
+msgstr "灯光下"
+
+#. [hud / visibility] key: hidden
+msgid "HIDDEN"
+msgstr "隐藏中"
+
+#. [hud / visibility] key: in_shadow
+msgid "IN SHADOW"
+msgstr "阴影中"
+
+#. [briefing_screen / labels] key: objectives_title
+msgid "Objectives"
+msgstr "任务目标"
+
+#. [level_briefings / level_1] key: objectives
+msgid "• Steal at least $300 worth of loot.\n• (Optional) Hack into Sternwood's computer."
+msgstr "偷走价值至少 $300 的战利品。 \n"
+"（可选）入侵斯特恩伍德的电脑。"
+
+#. [level_briefings / level_1] key: briefing
+#: scripts/constants.gd
+msgid "Looks like Sternwood isn't home. Probably told his wife he was going to spend the night reading, then slipped away to meet a nice young friend. Not that I'm complaining; with any luck, he'll have forgotten to set the alarm."
+msgstr "看来，斯特恩伍德这老小子不在家。多半是跟老婆说今晚要挑灯夜读，转头就溜出去会小情人了。这正合我意，没准他连警报都忘了设呢。"
+
+#. [level_briefings / level_1] key: name
+#: scripts/constants.gd
+msgid "Level 1"
+msgstr "第一关"
+
+#. [level_briefings / level_2] key: name
+#: scripts/constants.gd
+msgid "Level 2"
+msgstr "第二关"
+
+#. [level_briefings / level_2] key: objectives
+msgid "• Steal the vase.\n• (Optional) Hack into Chandler's computer."
+msgstr "偷走花瓶。 \n"
+"（可选）入侵钱德勒的电脑。"
+
+#. [level_briefings / level_2] key: briefing
+#: scripts/constants.gd
+msgid "An old contact got back in touch with me this morning; said he knew of some work that could suit me. Lois Chandler recently brought home a certain vase. Worth millions... if you've got millions to spend on a vase. My cut won't be that much, but more than enough to get me out of this hole. Good thing my bag is well padded."
+msgstr "今早一个老线人联系上我，说有票活挺适合我。洛伊丝・钱德勒最近带了个花瓶回家，据说值几百万…… 前提是有人舍得为个花瓶砸几百万。我分的肯定没那么多，但足够让我从眼下的烂摊子里脱身了。还好我这包够厚，装这种易碎品正合适。"
+
+#. [level_briefings / level_3] key: name
+#: scripts/constants.gd
+msgid "Level 3"
+msgstr "第三关"
+
+#. [level_briefings / level_3] key: briefing
+msgid "It's a fake. They hired me to steal a fake. The real vase is still out there, and every paper in the city is talking about it. They played me like a fool; used me to advertise their precious little bit of stoneware and then cut me loose. I'd be an idiot to go after the real thing.\n\nWell, I guess that makes me an idiot. But I'm not just after that vase now. I'm going to dig up every last dark secret they've got. By the time I'm done, I'll have enough dirt to bury them the moment they come knocking on my door."
+msgstr "假的！他们大费周章雇我，竟然是为了偷个赝品！真花瓶还在外面晃，现在满城的报纸都在大肆报道这件事。这帮人把我当猴耍，用我给他们那点破石头花瓶造势，完事了就把我一脚踢开。我要是再去打真品的主意那真是蠢到家了！\n"
+"\n"
+"算了，这个蠢人我当定了！不过现在，事情已经不是一个花瓶那么简单了。我要把他们藏在暗处的破事扒个底朝天。到那时候，他们要是敢上门找事，我手里的黑料也能让他们吃不了兜着走。"
+
+#. [level_briefings / level_3] key: objectives
+msgid "• Find the real vase.\n• (Optional) Hack into all three computers."
+msgstr "找到真正的花瓶。\n"
+"（可选）入侵三台电脑。"
+
+#. [dialogues / level1] key: level1_box
+#: scripts/dialogues.gd
+msgid "That box could make for a nice bit of cover. A little small, but you know the saying: if I fits..."
+msgstr "那个箱子能当个不错的掩体，小是小了点，但是众所周知，猫是流体……"
+
+#. [dialogues / level1] key: level1_computer
+#: scripts/dialogues.gd
+msgid "Oh, Harry... still young at heart, I see. But your selfie game needs work. I'll just take a copy of these; they'll make for good insurance."
+msgstr "呵，哈里…… 没想到你心态还挺年轻。不过你这自拍技术可太拉胯了。我把这些拷一份，以后当个筹码挺合适。"
+
+#. [dialogues / level1] key: level1_camera
+#: scripts/dialogues.gd
+msgid "Using last year's security cameras, Harry? How embarrassing."
+msgstr "哈里，你居然还在用去年的监控？也太掉价了吧。"
+
+#. [dialogues / level1] key: level1_guard
+#: scripts/dialogues.gd
+msgid "Good to see Cronjager's still finding work, but those eyes of his aren't doing him any favours. As long as I'm in the dark, I'm invisible."
+msgstr "行啊，克朗贾格这小子居然还没失业，至于他那双眼睛……不怎么顶用。只要我待在暗处，谁也别想看见我。"
+
+#. [dialogues / level1] key: level1_goal
+#: scripts/dialogues.gd
+msgid "That should be enough. I can see myself out... or I can stick around and really make this worth my while."
+msgstr "这点东西够了。我现在就撤…… 或者干脆多待会儿，把这趟干回本。"
+
+#. [dialogues / level1] key: level1_platform
+#: scripts/dialogues.gd
+msgid "I hate to admit it, but I'm no jumper. I can drop down from here, but getting back up will be harder..."
+msgstr "说出来有点丢人，但我可不会什么飞檐走壁。从这儿跳下去没问题，想再爬上来可就难了……"
+
+#. [dialogues / level2] key: level2_vent1
+#: scripts/dialogues.gd
+msgid "That vent looks large enough to fit in. It's not graceful, but it's the best way of getting about completely undetected."
+msgstr "这通风口看着够我钻的。姿势是难看了点，但这是唯一能神不知鬼不觉溜过去的办法了。"
+
+#. [dialogues / level2] key: level2_goal
+#: scripts/dialogues.gd
+msgid "Well, aren't you a pretty little thing. Lighter than I was expecting, too..."
+msgstr "哟，还挺好看的小东西嘛！而且比我想的要轻得多……"
+
+#. [dialogues / level2] key: level2_computer
+#: scripts/dialogues.gd
+msgid "Holding out on Uncle Sam, are we, Chandler? Cab drivers pay more tax than that."
+msgstr "钱德勒，你在跟国税局藏私房钱吗？出租车司机交的税都比你多。"
+
+#. [dialogues / level2] key: level2_guard
+#: scripts/dialogues.gd
+msgid "Aw, Cronjager... burning the midnight oil again? Someone hasn't had his coffee. I could make use of that."
+msgstr "哟，克朗贾格…… 又在熬大夜？看来这货还没喝咖啡呢，这我可得好好利用一下。"
+
+#. [dialogues / level2] key: level2_vent2
+#: scripts/dialogues.gd
+msgid "Completely. Un. Detected."
+msgstr "完全没被发现。"
+
+#. [dialogues / level2] key: level2_poster
+#: scripts/dialogues.gd
+msgid "*sigh* I was really looking forward to that movie..."
+msgstr "唉……我还真挺期待那部电影的……"
+
+#. [dialogues / level2] key: level2_statue
+#: scripts/dialogues.gd
+msgid "Talk about still life..."
+msgstr "这可真是“静物画”啊……"
+
+#. [dialogues / level3] key: level3_vase
+#: scripts/dialogues.gd
+msgid "Hope it was worth it, Chandler."
+msgstr "希望这值得你这么做，钱德勒。"
+
+#. [hints / gameplay] key: roll_under
+#: scripts/dialogues.gd
+msgid "While rolling, tap the crouch button again to roll underneath stairs or thin platforms."
+msgstr "翻滚过程中再按一次下蹲键，就能从楼梯或薄平台下方钻过去。"
+
+#. [hints / gameplay] key: venting
+#: scripts/dialogues.gd
+msgid "To enter a vent, roll into it."
+msgstr "想进通风口？直接朝它翻滚进去就行。"
+
+#. [hints / gameplay] key: blind_cameras
+#: scripts/dialogues.gd
+msgid "Cameras can't see you in the dark. Turn the environment to your adventage..."
+msgstr "摄像头在黑暗里拍不到你。好好利用环境优势……"
+
+#. [hints / gameplay] key: search
+#: scripts/dialogues.gd
+msgid "Remember to search anything that looks like it might contain valuables. You never know what you'll find."
+msgstr "记得搜查一切看起来可能藏了值钱东西的地方，你永远不知道会翻出什么。"
+
+#. [hints / gameplay] key: cover
+#: scripts/dialogues.gd
+msgid "Furniture that is positioned in front of Cynth can act as cover. Duck while in front of it to remind out of sight."
+msgstr "辛斯面前的家具可以用作掩体，躲在后面就不会被发现。"
+
+#. [hints / gameplay] key: short_roll
+#: scripts/dialogues.gd
+msgid "You can interrupt your roll mid-way by tapping the Interact button."
+msgstr "按交互键以中断翻滚。"
+
+#. [hints / gameplay] key: toggle
+#: scripts/dialogues.gd
+msgid "Some lamps can be turned off if you can reach them, making it much easier to go unnoticed."
+msgstr "有些灯如果够得到就能关掉，这会让你更不容易被发现。"
+
+#. [loot_descriptions / level1] key: comics
+msgid "Cronjager's stash of vintage comics."
+msgstr "克朗贾格珍藏的复古漫画"
+
+#. [loot_descriptions / level1] key: documents
+msgid "Various company documents. Worth something, if you find the right buyer..."
+msgstr "各种公司文件。找对买家的话，还能值几个钱……"
+
+#. [loot_descriptions / level1] key: scotch
+msgid "Funny place to keep a bottle of Scotch..."
+msgstr "把苏格兰威士忌藏在这种地方，真够奇葩的……"
+
+#. [loot_descriptions / level1] key: book
+msgid "\"A Study of Azitron Mating Habits.\""
+msgstr "《阿兹特龙交配习性研究》"
+
+#. [loot_descriptions / level2] key: loose_change
+msgid "Some loose change under the cushions."
+msgstr "沙发垫底下掉的几个钢镚儿"
+
+#. [loot_descriptions / level2] key: nothing
+msgid "Nothing. What were you expecting?"
+msgstr "空空如也，你还在期待什么？"
+
+#. [loot_descriptions / level2] key: photo_frames
+msgid "A set of exquisite photo frames."
+msgstr "一套精美的相框"
+
+#. [loot_descriptions / level2] key: expired_milk
+msgid "Some expired milk. Ew."
+msgstr "几瓶过期牛奶。呕"
+
+#. [loot_descriptions / level2] key: book
+msgid "A first edition copy of \"101 Ways to Stop Pacing Constantly\"."
+msgstr "初版《101 种根治来回踱步的方法》"
+
+#. [in_game_objectives / level1] key: primary
+#: scripts/scenarios/scenario1.gd
+msgid "Steal at least $300 worth of loot."
+msgstr "偷走价值至少 $300 的战利品。"
+
+#. [in_game_objectives / level1] key: goal_met
+#. [in_game_objectives / level2] key: goal_met
+#. [in_game_objectives / level3] key: goal_met
+#: scripts/scenarios/scenario1.gd
+#: scripts/scenarios/scenario3.gd
+#: scripts/scenarios/scenario2.gd
+msgid "Escape."
+msgstr "撤离"
+
+#. [in_game_objectives / level1] key: secondary_met
+#. [in_game_objectives / level2] key: secondary_met
+#. [in_game_objectives / level3] key: secondary_met
+#: scripts/scenarios/scenario1.gd
+#: scripts/scenarios/scenario3.gd
+#: scripts/scenarios/scenario2.gd
+msgid "Secondary objective complete."
+msgstr "次要目标已完成。"
+
+#. [in_game_objectives / level2] key: primary
+#: scripts/scenarios/scenario2.gd
+msgid "Steal the vase."
+msgstr "偷走花瓶。"
+
+#. [in_game_objectives / level3] key: primary
+#: scripts/scenarios/scenario3.gd
+msgid "Find the vase."
+msgstr "找到花瓶。"
+
+#. [level_complete_screen / labels] key: rank
+msgid "Rank"
+msgstr "评级"
+
+#. [level_complete_screen / labels] key: title
+msgid "Level Complete"
+msgstr "关卡完成"
+
+#. [level_complete_screen / labels] key: alerts
+msgid "Alerts"
+msgstr "警报次数"
+
+#. [level_complete_screen / labels] key: loot
+msgid "Loot"
+msgstr "战利品"
+
+#. [level_complete_screen / labels] key: time
+msgid "Time"
+msgstr "耗时"
+
+#. [credits / names] key: kyveri
+#: objects/ui/credits.tscn
+msgid "Kyveri"
+msgstr "Kyveri"
+
+#. [credits / names] key: godot_wild_jam_63
+#: objects/ui/credits.tscn
+msgid "Godot Wild Jam #63"
+msgstr "Godot Wild Jam #63"
+
+#. [credits / names] key: godot_engine
+#: objects/ui/credits.tscn
+msgid "Godot Engine v4.2.2"
+msgstr "Godot Engine v4.2.2"
+
+#. [credits / names] key: jerico_landry
+#: objects/ui/credits.tscn
+msgid "Jerico Landry"
+msgstr "Jerico Landry"
+
+#. [credits / names] key: sfeldman
+#: objects/ui/credits.tscn
+msgid "Sfeldman"
+msgstr "Sfeldman"
+
+#. [credits / names] key: carrie_drovdlic
+#: objects/ui/credits.tscn
+msgid "Carrie Drovdlic"
+msgstr "Carrie Drovdlic"
+
+#. [credits / names] key: john_gabriel
+#: objects/ui/credits.tscn
+msgid "John Gabriel"
+msgstr "John Gabriel"
+
+#. [credits / roles] key: originally_made_for
+#: objects/ui/credits.tscn
+msgid "Originally made for"
+msgstr "最初制作于"
+
+#. [credits / roles] key: digital_art_by
+#: objects/ui/credits.tscn
+msgid "Digital art by"
+msgstr "数字美术："
+
+#. [credits / roles] key: as_voice_of_cynth
+#: objects/ui/credits.tscn
+msgid "as the voice of Cynth"
+msgstr "辛斯（Cynth）配音："
+
+#. [credits / roles] key: music_by
+#: objects/ui/credits.tscn
+msgid "Music by"
+msgstr "音乐："
+
+#. [credits / roles] key: pixel_art_by
+#: objects/ui/credits.tscn
+msgid "Pixel art by"
+msgstr "像素美术："
+
+#. [credits / roles] key: featuring
+#: objects/ui/credits.tscn
+msgid "Featuring"
+msgstr "特别鸣谢："
+
+#. [credits / roles] key: game_by
+#: objects/ui/credits.tscn
+msgid "Game by"
+msgstr "游戏开发："
+
+#. [credits / roles] key: made_with
+#: objects/ui/credits.tscn
+msgid "Made with"
+msgstr "制作工具："
+
+#. [ending_screen / labels] key: thank_you
+msgid "Thank You For Playing!"
+msgstr "感谢游玩！"
+
+#. [ending_screen / labels] key: made_for_gwj
+msgid "Made for Godot Wild Jam #63"
+msgstr "为 Godot Wild Jam #63 制作"
+
+#. [ending_screen / subtitles] key: subtitle_5
+msgid "My contact's gone dark."
+msgstr "我的线人彻底失联了。"
+
+#. [ending_screen / subtitles] key: subtitle_7
+msgid "Hope they're enjoying the fallout."
+msgstr "希望他们正好好享受这场烂摊子。"
+
+#. [ending_screen / subtitles] key: subtitle_8
+msgid "As for me: I'll lie low for a while."
+msgstr "至于我嘛，得先躲一阵子避避风头。"
+
+#. [ending_screen / subtitles] key: subtitle_1
+msgid "See, here's the thing about making powerful people angry..."
+msgstr "你知道的，惹了大人物，下场一般都不怎么好看……"
+
+#. [ending_screen / subtitles] key: subtitle_6
+msgid "For all I know, they were in on the plan all along."
+msgstr "据我所知，他们从一开始就跟这事脱不了干系。"
+
+#. [ending_screen / subtitles] key: subtitle_4
+msgid "It's a miracle I made it out of there with my tail still on."
+msgstr "我能毫发无伤地逃出来，真是个奇迹！"
+
+#. [ending_screen / subtitles] key: subtitle_2
+msgid "You've gotta do it from a distance."
+msgstr "这种事就得躲得远远的干。"
+
+#. [ending_screen / subtitles] key: subtitle_9
+msgid "It's far from home... but there are worse places to be when you're in hiding."
+msgstr "这地方离家是远了点…… 但要藏身，这儿已经算不错了。"
+
+#. [ending_screen / subtitles] key: subtitle_3
+msgid "That, or make sure you're already running in the opposite direction by the time they find out."
+msgstr "要么就趁早跑路，等他们反应过来，你早就跑没影了。"
+
+#. [unknown] — not found in extracted CSV sources
+msgid "Language"
+msgstr "语言"
+
+#. [unknown] — not found in extracted CSV sources
+msgid "OBJECTIVE"
+msgstr "目标"
+
+#. [unknown] — not found in extracted CSV sources
+msgid "English"
+msgstr "English"
+
+#. [unknown] — not found in extracted CSV sources
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#. [unknown] — not found in extracted CSV sources
+msgid "LOOT"
+msgstr "战利品"
+
+#. [unknown] — not found in extracted CSV sources
+msgid "C Y N T H"
+msgstr "辛斯（Cynth）"
+
+#. [menu_ui / prompts] key: steal
+msgid "Steal"
+msgstr "偷取"
+
+#. [menu_ui / prompts] key: search
+msgid "Search"
+msgstr "搜索"
+
+#. [menu_ui / prompts] key: hide
+msgid "Hide"
+msgstr "躲藏"
+
+#. [menu_ui / prompts] key: enter
+msgid "Enter"
+msgstr "进入"
+
+#. [menu_ui / prompts] key: escape
+msgid "Escape"
+msgstr "撤离"
+
+#. [menu_ui / prompts] key: hack
+msgid "Hack"
+msgstr "入侵"
+
+#. [menu_ui / prompts] key: read
+msgid "Read"
+msgstr "阅读"
+
+#. [menu_ui / prompts] key: toggle_light
+msgid "Toggle Light"
+msgstr "切换灯"
+
+#. [menu_ui / prompts] key: get_even
+msgid "Get Even"
+msgstr "报复！"
