@@ -43,12 +43,12 @@ game/
 
 ## Credits
 
-- **Original game** — [John Gabriel](https://johngabrieluk.itch.io/catburglar): design, pixel art, programming
+- **Original game** — [John Gabriel](https://johngabrieluk.itch.io/catburglar): directing, writing and developing
 - **Pixel art** — Jerico Landry
-- **Digital art** — Kyveri
+- **Digital art and character design** — Kyveri
 - **Voice of Cynth (EN)** — Carrie Drovdlic
-- **Music** — Sfeldman
-- **Simplified Chinese localization** — this fork's contributors
+- **Music** — Sacha Feldman
+- **Simplified Chinese localization** — this repo's contributors
 
 ## License
 

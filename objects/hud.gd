@@ -1,7 +1,7 @@
 extends CanvasLayer
 const FONT_EN_BOLD : FontFile = preload("res://fonts/CaviarDreams_Bold.ttf")
 const FONT_EN_BODY : FontFile = preload("res://fonts/CaviarDreams.ttf")
-const FONT_ZH : FontFile = preload("res://fonts/HiraginoSansGB.ttc")
+const FONT_ZH : FontFile = preload("res://fonts/SourceHanSansSC-Regular.otf")
 
 enum Visibility {IN_LIGHT, IN_SHADOW, HIDDEN, NIL}
 

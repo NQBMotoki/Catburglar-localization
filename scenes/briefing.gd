@@ -2,8 +2,8 @@ extends Control
 const FONT_TITLE_EN : FontFile = preload("res://fonts/breamcatcher rg.otf")
 const FONT_BODY_EN : FontFile = preload("res://fonts/CaviarDreams.ttf")
 const FONT_BODY_BOLD_EN : FontFile = preload("res://fonts/CaviarDreams_Bold.ttf")
-const FONT_ZH : FontFile = preload("res://fonts/HiraginoSansGB.ttc")
-const FONT_ZH_BOLD : FontFile = preload("res://fonts/HiraginoSansGB_Bold.ttf")
+const FONT_ZH : FontFile = preload("res://fonts/SourceHanSansSC-Regular.otf")
+const FONT_ZH_BOLD : FontFile = preload("res://fonts/SourceHanSansSC-Bold.otf")
 
 @onready var label_level_name : Label = $Label_LevelName
 @onready var label_level_description : Label = $VBox/Label_Description

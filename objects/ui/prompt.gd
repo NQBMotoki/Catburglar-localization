@@ -3,7 +3,7 @@ extends HBoxContainer
 
 const ICON_WIDTH : int = 64
 const FONT_EN : FontFile = preload("res://fonts/CaviarDreams_Bold.ttf")
-const FONT_ZH : FontFile = preload("res://fonts/HiraginoSansGB.ttc")
+const FONT_ZH : FontFile = preload("res://fonts/SourceHanSansSC-Regular.otf")
 
 @export var title : String = "Action Name" :
 	set(value):

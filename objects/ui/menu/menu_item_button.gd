@@ -1,7 +1,7 @@
 @tool
 extends HBoxContainer
 const FONT_EN : FontFile = preload("res://fonts/breamcatcher rg.otf")
-const FONT_ZH : FontFile = preload("res://fonts/HiraginoSansGB.ttc")
+const FONT_ZH : FontFile = preload("res://fonts/SourceHanSansSC-Regular.otf")
 
 @export var id : String
 
