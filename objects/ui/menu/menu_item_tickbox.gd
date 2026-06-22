@@ -1,7 +1,7 @@
 @tool
 extends HBoxContainer
 const FONT_EN : FontFile = preload("res://fonts/breamcatcher rg.otf")
-const FONT_ZH : FontFile = preload("res://fonts/SourceHanSansSC-Regular.otf")
+const FONT_ZH : FontFile = preload("res://fonts/NotoSansCJKsc-VF.ttf")
 
 const _On : Texture2D = preload("res://sprites/ui/menu/tickbox_on.png")
 const _Off : Texture2D = preload("res://sprites/ui/menu/tickbox_off.png")
