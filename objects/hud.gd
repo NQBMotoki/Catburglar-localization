@@ -1,7 +1,8 @@
 extends CanvasLayer
 const FONT_EN_BOLD : FontFile = preload("res://fonts/CaviarDreams_Bold.ttf")
 const FONT_EN_BODY : FontFile = preload("res://fonts/CaviarDreams.ttf")
-const FONT_ZH : FontFile = preload("res://fonts/NotoSansCJKsc-VF.ttf")
+const FONT_ZH : FontFile = preload("res://fonts/NotoSansSC-Regular.ttf")
+const FONT_ZH_BOLD : FontFile = preload("res://fonts/NotoSansSC-Bold.ttf")
 
 enum Visibility {IN_LIGHT, IN_SHADOW, HIDDEN, NIL}
 
@@ -193,7 +194,7 @@ func _on_language_changed() -> void:
 
 func _apply_locale_style() -> void:
 	var is_zh : bool = Settings.is_chinese()
-	var active_bold : FontFile = FONT_ZH if is_zh else FONT_EN_BOLD
+	var active_bold : FontFile = FONT_ZH_BOLD if is_zh else FONT_EN_BOLD
 	var active_body : FontFile = FONT_ZH if is_zh else FONT_EN_BODY
 	label_visibility.add_theme_font_override("font", active_bold)
 	label_loot_label.add_theme_font_override("font", active_bold)

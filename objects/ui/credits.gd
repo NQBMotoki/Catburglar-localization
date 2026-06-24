@@ -1,6 +1,6 @@
 extends Control
 
-const FONT_ZH : FontFile = preload("res://fonts/NotoSansCJKsc-VF.ttf")
+const FONT_ZH : FontFile = preload("res://fonts/NotoSansSC-Regular.ttf")
 
 func _ready() -> void:
 	if Settings.is_chinese():

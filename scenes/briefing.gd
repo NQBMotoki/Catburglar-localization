@@ -2,8 +2,8 @@ extends Control
 const FONT_TITLE_EN : FontFile = preload("res://fonts/breamcatcher rg.otf")
 const FONT_BODY_EN : FontFile = preload("res://fonts/CaviarDreams.ttf")
 const FONT_BODY_BOLD_EN : FontFile = preload("res://fonts/CaviarDreams_Bold.ttf")
-const FONT_ZH : FontFile = preload("res://fonts/NotoSansCJKsc-VF.ttf")
-var font_zh_bold : FontVariation
+const FONT_ZH : FontFile = preload("res://fonts/NotoSansSC-Regular.ttf")
+const FONT_ZH_BOLD : FontFile = preload("res://fonts/NotoSansSC-Bold.ttf")
 
 @onready var label_level_name : Label = $Label_LevelName
 @onready var label_level_description : Label = $VBox/Label_Description
@@ -31,9 +31,6 @@ func _input(event : InputEvent) -> void:
 		current_state = State.OUT
 
 func _ready() -> void:
-	font_zh_bold = FontVariation.new()
-	font_zh_bold.base_font = FONT_ZH
-	font_zh_bold.variation_opentype["wght"] = 700
 	label_level_name.text = Constants.get_level_name(GameProgress.current_level)
 	label_level_description.text = Constants.get_level_briefing(GameProgress.current_level)
 	label_level_objectives.text = Constants.get_level_objectives(GameProgress.current_level)
@@ -59,8 +56,15 @@ func _apply_locale_style() -> void:
 	label_level_name.add_theme_font_override("font", FONT_ZH if is_zh else FONT_TITLE_EN)
 	label_level_description.add_theme_font_override("font", FONT_ZH if is_zh else FONT_BODY_EN)
 	label_level_objectives.add_theme_font_override("font", FONT_ZH if is_zh else FONT_BODY_EN)
-	label_objectives_title.add_theme_font_override("font", font_zh_bold if is_zh else FONT_BODY_BOLD_EN)
+	label_objectives_title.add_theme_font_override("font", FONT_ZH_BOLD if is_zh else FONT_BODY_BOLD_EN)
 	label_level_name.add_theme_font_size_override("font_size", 84 if is_zh else 120)
 	label_level_description.add_theme_font_size_override("font_size", 15 if is_zh and GameProgress.current_level == 3 else (18 if is_zh else 20))
 	label_level_objectives.add_theme_font_size_override("font_size", 18 if is_zh else 20)
 	label_objectives_title.add_theme_font_size_override("font_size", 20 if is_zh else 20)
+	var wrap_mode := (
+		TextServer.AUTOWRAP_ARBITRARY
+		if is_zh
+		else TextServer.AUTOWRAP_WORD_SMART
+	)
+	label_level_description.autowrap_mode = wrap_mode
+	label_level_objectives.autowrap_mode = wrap_mode
