@@ -5,9 +5,8 @@ A Simplified Chinese localization fork of [Catburglar](https://bitbucket.org/Joh
 ## What's New
 
 - **Full Simplified Chinese UI** — menus, HUD, briefings, subtitles, and credits fully localized
-- **Chinese voice-over** — 18 VO lines (briefings, in-level dialogues, ending) with automatic language-based switching
-- **Translation pipeline fixes** — resolved upstream PO issues including trailing-space mismatches, `fuzzy`-flagged entries blocking translations, and dynamically generated strings missed by POT extraction
-- **Chinese UI polish** — fixed briefing text overflow on Level 3, added bold Chinese font support, adjusted menu spacing
+- **Chinese voice-dubbing** — 18 VO lines (briefings, in-level dialogues, ending) with automatic language-based switching
+- **Chinese UI polish** — fixed briefing text overflow on Level 3, adjusted menu spacing
 
 ## Getting Started
 
@@ -36,19 +35,27 @@ game/
 ├── scenes/            # Game scenes (title, briefing, levels, ending)
 ├── scripts/           # Game logic (dialogues, constants, settings)
 ├── translations/      # Translation files
-│   ├── zh_CN.po       # Main Simplified Chinese translation
-│   └── Extra_zh_CN.po # Supplemental translations for dynamic strings
+│   ├── zh_CN.po       # Simplified Chinese translation
 └── project.godot      # Godot project config
 ```
 
 ## Credits
+
+### Original Game Team
 
 - **Original game** — [John Gabriel](https://johngabrieluk.itch.io/catburglar): directing, writing and developing
 - **Pixel art** — Jerico Landry
 - **Digital art and character design** — Kyveri
 - **Voice of Cynth (EN)** — Carrie Drovdlic
 - **Music** — Sacha Feldman
-- **Simplified Chinese localization** — this repo's contributors
+
+### Simplified Chinese Localization Team
+
+- **Simplified Chinese dubbing** - Sylvia
+- **Simplified Chinese translation** - Sylvia and Camille
+- **Localization project manager** - Eric
+- **Localization engineer** - NQBMotoki
+- **Localization QA tester** - Karen
 
 ## License
 

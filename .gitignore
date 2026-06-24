@@ -15,3 +15,6 @@ export_presets.cfg
 
 # Claude Code
 .claude/
+
+# Dev tools
+merge_po.py

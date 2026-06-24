@@ -2,8 +2,8 @@ extends Control
 const FONT_TITLE_EN : FontFile = preload("res://fonts/breamcatcher rg.otf")
 const FONT_BODY_EN : FontFile = preload("res://fonts/CaviarDreams.ttf")
 const FONT_BODY_BOLD_EN : FontFile = preload("res://fonts/CaviarDreams_Bold.ttf")
-const FONT_ZH : FontFile = preload("res://fonts/SourceHanSansSC-Regular.otf")
-const FONT_ZH_BOLD : FontFile = preload("res://fonts/SourceHanSansSC-Bold.otf")
+const FONT_ZH : FontFile = preload("res://fonts/NotoSansSC-Regular.ttf")
+const FONT_ZH_BOLD : FontFile = preload("res://fonts/NotoSansSC-Bold.ttf")
 
 @onready var label_level_name : Label = $Label_LevelName
 @onready var label_level_description : Label = $VBox/Label_Description
@@ -61,3 +61,10 @@ func _apply_locale_style() -> void:
 	label_level_description.add_theme_font_size_override("font_size", 15 if is_zh and GameProgress.current_level == 3 else (18 if is_zh else 20))
 	label_level_objectives.add_theme_font_size_override("font_size", 18 if is_zh else 20)
 	label_objectives_title.add_theme_font_size_override("font_size", 20 if is_zh else 20)
+	var wrap_mode := (
+		TextServer.AUTOWRAP_ARBITRARY
+		if is_zh
+		else TextServer.AUTOWRAP_WORD_SMART
+	)
+	label_level_description.autowrap_mode = wrap_mode
+	label_level_objectives.autowrap_mode = wrap_mode
