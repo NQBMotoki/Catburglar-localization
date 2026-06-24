@@ -41,12 +41,21 @@ game/
 
 ## Credits
 
+### Original Game Team
+
 - **Original game** — [John Gabriel](https://johngabrieluk.itch.io/catburglar): directing, writing and developing
 - **Pixel art** — Jerico Landry
 - **Digital art and character design** — Kyveri
 - **Voice of Cynth (EN)** — Carrie Drovdlic
 - **Music** — Sacha Feldman
-- **Simplified Chinese localization** — this repo's contributors
+
+### Simplified Chinese Localization Team
+
+- **Simplified Chinese dubbing** - Sylvia
+- **Simplified Chinese translation** - Sylvia and Camille
+- **Localization project manager** - Eric
+- **Localization engineer** - NQBMotoki
+- **Localization QA tester** - Karen
 
 ## License
 
