@@ -13,8 +13,8 @@
 [ext_resource type="PackedScene" uid="uid://dlkta45kvdfku" path="res://objects/ui/menus/audio.tscn" id="10_6cc7h"]
 [ext_resource type="AudioStream" uid="uid://bc01o3e75dgba" path="res://audio/music/title.ogg" id="10_syov0"]
 [ext_resource type="PackedScene" uid="uid://cp7kakv4lupju" path="res://objects/ui/menus/controls.tscn" id="11_hypax"]
-[ext_resource type="PackedScene" path="res://objects/ui/menus/language.tscn" id="12_ygv1d"]
 [ext_resource type="PackedScene" uid="uid://7x1hdqybj404" path="res://objects/ui/credits.tscn" id="12_t04ux"]
+[ext_resource type="PackedScene" path="res://objects/ui/menus/language.tscn" id="12_ygv1d"]
 [ext_resource type="PackedScene" uid="uid://cxucawp22wfyt" path="res://objects/ui/prompt.tscn" id="14_5k0o0"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_qocyx"]

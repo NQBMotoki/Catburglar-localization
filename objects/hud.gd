@@ -204,6 +204,7 @@ func _apply_locale_style() -> void:
 	dialogue_speaker.add_theme_font_override("font", active_bold)
 	dialogue_line.add_theme_font_override("font", active_body)
 	hint_line.add_theme_font_override("font", active_body)
+	label_loot_description.add_theme_font_override("font", active_body)
 	label_objective_value.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	label_objective_value.add_theme_font_size_override("font_size", 21 if is_zh else 24)
 	dialogue_line.add_theme_font_size_override("font_size", 18 if is_zh else 20)
